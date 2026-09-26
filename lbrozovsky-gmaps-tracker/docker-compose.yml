@@ -9,7 +9,7 @@ services:
 
   # webový prohlížeč tras
   web:
-    image: ghcr.io/lbrozovsky/gmaps-tracker:1.0.0
+    image: ghcr.io/lbrozovsky/gmaps-tracker:1.1.0
     user: "1000:1000"
     restart: on-failure
     command: ["serve", "--host", "0.0.0.0", "--port", "8000", "--no-reload"]
@@ -20,12 +20,14 @@ services:
 
   # smyčka stahující polohy (cookies.txt a locations.sqlite v data/)
   fetcher:
-    image: ghcr.io/lbrozovsky/gmaps-tracker:1.0.0
+    image: ghcr.io/lbrozovsky/gmaps-tracker:1.1.0
     user: "1000:1000"
     restart: on-failure
     command: ["run", "--authuser", "0"]
     environment:
       TZ: Europe/Prague
       GMT_ME: "Lukáš Brožovský"
+      # dočasně: surové odpovědi Googlu do data/raw pro rozbor nevyužitých polí
+      GMT_DUMP_RAW: /data/raw
     volumes:
       - ${APP_DATA_DIR}/data:/data
