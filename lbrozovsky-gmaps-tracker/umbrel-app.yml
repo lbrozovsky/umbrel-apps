@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: lbrozovsky-gmaps-tracker
+category: automation
+name: GMaps Tracker
+version: "1.0.0"
+tagline: Historie poloh ze Sdílení polohy v Google Maps
+icon: https://raw.githubusercontent.com/lbrozovsky/umbrel-apps/main/lbrozovsky-gmaps-tracker/icon.svg
+description: >-
+  Periodicky stahuje polohy lidí, kteří s vámi sdílejí polohu v Google Maps,
+  ukládá je do SQLite a zobrazuje trasy na mapě včetně detekce pobytů,
+  typu přesunů a heatmapy.
+
+
+  Po instalaci nahrajte aplikací Files do složky aplikace, podsložky data,
+  soubor cookies.txt exportovaný z Firefoxu (postup v README projektu).
+  Nepouštějte současně jinou instanci se stejnými cookies.
+releaseNotes: ""
+developer: Lukáš Brožovský
+website: https://github.com/lbrozovsky/gmaps-tracker
+dependencies: []
+repo: https://github.com/lbrozovsky/gmaps-tracker
+support: https://github.com/lbrozovsky/gmaps-tracker/issues
+port: 8475
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Lukáš Brožovský
+submission: https://github.com/lbrozovsky/umbrel-apps
