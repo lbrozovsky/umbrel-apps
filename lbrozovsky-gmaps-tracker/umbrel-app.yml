@@ -2,7 +2,7 @@ manifestVersion: 1
 id: lbrozovsky-gmaps-tracker
 category: automation
 name: GMaps Tracker
-version: "1.3.0"
+version: "1.4.0"
 tagline: Historie poloh ze Sdílení polohy v Google Maps
 icon: https://raw.githubusercontent.com/lbrozovsky/umbrel-apps/main/lbrozovsky-gmaps-tracker/icon.svg
 description: >-
@@ -15,8 +15,9 @@ description: >-
   soubor cookies.txt exportovaný z Firefoxu (postup v README projektu).
   Nepouštějte současně jinou instanci se stejnými cookies.
 releaseNotes: >-
-  Období se vybírá jen tlačítky 1 h až vše (bez polí Od/Do), špendlíky začátku
-  a konce trasy v barvách škály (start modrý, konec červený).
+  Adaptivní interval: když je někdo v pohybu, stahuje se každých 60 s místo
+  120 s. V hlavičce je vidět čas posledního dotazu, aktuální interval a počet
+  osob v pohybu.
 developer: Lukáš Brožovský
 website: https://github.com/lbrozovsky/gmaps-tracker
 dependencies: []
