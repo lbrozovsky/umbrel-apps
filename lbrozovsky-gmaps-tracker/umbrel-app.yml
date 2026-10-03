@@ -2,7 +2,7 @@ manifestVersion: 1
 id: lbrozovsky-gmaps-tracker
 category: automation
 name: GMaps Tracker
-version: "1.7.0"
+version: "1.7.1"
 tagline: Historie poloh ze Sdílení polohy v Google Maps
 icon: https://raw.githubusercontent.com/lbrozovsky/umbrel-apps/main/lbrozovsky-gmaps-tracker/icon.svg
 description: >-
@@ -15,9 +15,8 @@ description: >-
   soubor cookies.txt exportovaný z Firefoxu (postup v README projektu).
   Nepouštějte současně jinou instanci se stejnými cookies.
 releaseNotes: >-
-  Kolo se pozná jen při jízdě aspoň 20 minut v kuse, kratší úseky jsou
-  auto po městě (nebo chůze). Vybraný úsek trasy je na mapě výraznější:
-  silnější čára s bílým lemem a zešedlý podklad mapy.
+  Osamocené výskoky GPS (nepřesný bod daleko od trasy, která se hned vrátí)
+  se úplně ignorují – v detekci pobytů a přesunů, na mapě i v exportu.
 developer: Lukáš Brožovský
 website: https://github.com/lbrozovsky/gmaps-tracker
 dependencies: []
