@@ -2,7 +2,7 @@ manifestVersion: 1
 id: lbrozovsky-gmaps-tracker
 category: automation
 name: GMaps Tracker
-version: "1.8.3"
+version: "1.8.4"
 tagline: Historie poloh ze Sdílení polohy v Google Maps
 icon: https://raw.githubusercontent.com/lbrozovsky/umbrel-apps/main/lbrozovsky-gmaps-tracker/icon.svg
 description: >-
@@ -15,9 +15,8 @@ description: >-
   soubor cookies.txt exportovaný z Firefoxu (postup v README projektu).
   Nepouštějte současně jinou instanci se stejnými cookies.
 releaseNotes: >-
-  Zastávka hned před nebo po pobytu, která leží u stejného místa
-  (nepřesné body, rozlehlá budova, parkoviště), se připojí k pobytu.
-  Přesun, který je celý stáním, se ukazuje jako zastávka.
+  Bez funkčních změn: obraz sestavený novějšími verzemi nástrojů
+  (GitHub Actions na Node 24).
 developer: Lukáš Brožovský
 website: https://github.com/lbrozovsky/gmaps-tracker
 dependencies: []
