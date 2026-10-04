@@ -2,7 +2,7 @@ manifestVersion: 1
 id: lbrozovsky-gmaps-tracker
 category: automation
 name: GMaps Tracker
-version: "1.7.2"
+version: "1.7.3"
 tagline: Historie poloh ze Sdílení polohy v Google Maps
 icon: https://raw.githubusercontent.com/lbrozovsky/umbrel-apps/main/lbrozovsky-gmaps-tracker/icon.svg
 description: >-
@@ -15,8 +15,8 @@ description: >-
   soubor cookies.txt exportovaný z Firefoxu (postup v README projektu).
   Nepouštějte současně jinou instanci se stejnými cookies.
 releaseNotes: >-
-  Výskoky GPS se ignorují i tehdy, když Google špatnou polohu několikrát
-  zopakuje (až 5 bodů do 10 minut na stejném místě, odkud se trasa vrátí).
+  Ignorují se i menší odskoky nepřesné polohy (od 30 m), kam trasa
+  odskočí a hned se vrátí – na mapě už nekreslí čáru tam a zpět.
 developer: Lukáš Brožovský
 website: https://github.com/lbrozovsky/gmaps-tracker
 dependencies: []
