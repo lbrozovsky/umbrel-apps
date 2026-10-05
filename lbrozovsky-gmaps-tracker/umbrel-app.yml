@@ -2,7 +2,7 @@ manifestVersion: 1
 id: lbrozovsky-gmaps-tracker
 category: automation
 name: GMaps Tracker
-version: "1.9.0"
+version: "1.9.1"
 tagline: Historie poloh ze Sdílení polohy v Google Maps
 icon: https://raw.githubusercontent.com/lbrozovsky/umbrel-apps/main/lbrozovsky-gmaps-tracker/icon.svg
 description: >-
@@ -15,10 +15,9 @@ description: >-
   soubor cookies.txt exportovaný z Firefoxu (postup v README projektu).
   Nepouštějte současně jinou instanci se stejnými cookies.
 releaseNotes: >-
-  Spánek: na mapě je 🛏 místo, kde telefon pravidelně leží v noci (počítá
-  se ze všech dat, i v rámci domu), v popupu obvyklé časy. V seznamu pobytů
-  je každá noc s časem ulehnutí a probuzení, probíhající noc jako „spí od“.
-  Je to odhad z polohy telefonu – nejisté noci se nezobrazují.
+  Místo spánku 🛏 se kreslí podle posledních nocí (Google časem posouvá
+  polohu domu určenou z Wi-Fi o několik metrů). Nové tlačítko 🛏 za jménem
+  přiblíží mapu na poslední místo spánku.
 developer: Lukáš Brožovský
 website: https://github.com/lbrozovsky/gmaps-tracker
 dependencies: []
