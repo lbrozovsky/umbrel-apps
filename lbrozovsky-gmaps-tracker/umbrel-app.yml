@@ -2,7 +2,7 @@ manifestVersion: 1
 id: lbrozovsky-gmaps-tracker
 category: automation
 name: GMaps Tracker
-version: "1.10.0"
+version: "1.10.1"
 tagline: Historie poloh ze Sdílení polohy v Google Maps
 icon: https://raw.githubusercontent.com/lbrozovsky/umbrel-apps/main/lbrozovsky-gmaps-tracker/icon.svg
 description: >-
@@ -15,9 +15,8 @@ description: >-
   soubor cookies.txt exportovaný z Firefoxu (postup v README projektu).
   Nepouštějte současně jinou instanci se stejnými cookies.
 releaseNotes: >-
-  Rozpoznání metra (🚇) podle trasy metra z OpenStreetMap; vlak má ikonu 🚂.
-  Pomalé courání (škola, obchod) je chůze, ne zastávka; okraj zastávky se
-  ořízne podle polohy a k pobytu se připojí i blízký příchod či odchod.
+  Metro: čekání na nástupišti a přestup (krátká chůze či zastávka na trase
+  metra hned před nebo po jízdě) patří k jízdě metrem.
 developer: Lukáš Brožovský
 website: https://github.com/lbrozovsky/gmaps-tracker
 dependencies: []
